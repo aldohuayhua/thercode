@@ -1,0 +1,35 @@
+  #header{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  body {
+    background-color: aqua;
+    /* background-image: url(krustyKrab.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; */
+  }
+#pattyImg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 0px;
+  padding: 0px;
+}
+
+h2{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#addBurgerBlock{
+  text-align: center;
+}
+.grid-item{
+  margin-left: 200px;
+}

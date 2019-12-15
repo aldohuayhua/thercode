@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="burger_style.css" type="text/css" />
+  <title>MVC With Cats!</title>
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="burgers.js"></script>
+</head>
+
+<body>
+
+  <h1 id="header">EAT A PATTY!!</h1>
+  <img id="pattyImg" src="krabbyPatty.png" alt="krabbyPatty">
+  <div id="addBurgerBlock">
+    <h2>Add a Burger</h2>
+    <form class="create-form">
+      <div class="form-group">
+        <label for="ca">Burger Name:</label>
+        <input type="text" id="ca" name="name" />
+      </div>
+      <div class="form-group">
+        <label for="sleepy">Have you ordered this burger before?</label><br />
+        <input type="radio" name="devoured" value="1" checked /> Yes I have ate this burger before!<br />
+        <input type="radio" name="devoured" value="0" /> Never had this burger, please order!  </div>
+
+      <button type="submit">Add Burger</button>
+    </form>
+  </div>
+  <div class="grid-container">
+    <h2 class="grid-item" id="notDevouredTitle">Burgers not devoured!</h2>
+    <h2 class="grid-item" id="devouredTitle">Burgers that are devoured!</h2>
+    <ul class="grid-item" id="notDevouredBurgers"></ul>
+    <ul class="grid-item" id="devouredBurgers"></ul>
+  </div>
+
+
+
+</body>
+
+</html>
